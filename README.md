@@ -33,10 +33,10 @@ network:
   ethernets:
     enp0s3:
       addresses:
-        - 10.0.2.19/24  # 변경된 고정 IP 주소
+        - 10.0.2.21/24
       routes:
         - to: default
-          via: 10.0.2.1  # 게이트웨이
+          via: 10.0.2.1
       nameservers:
         addresses:
           - 8.8.8.8
