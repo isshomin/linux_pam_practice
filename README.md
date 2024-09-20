@@ -7,11 +7,13 @@
 
 ### 1️⃣) 기존의 VM을 복제하여 새로운 VM을 만듭니다.
 
-<p align="left"><img src="https://github.com/user-attachments/assets/b7d80c72-d0f9-4d3a-8923-437bebc9b514"></p>
+#### ❗❗ ${\textsf{\color{red}새로운 IP할당을 위해 MAC주소 정책의 설정을 모든 네트워크의 어댑터의 새 MAC주소 생성을 선택해줘야 합니다.}}$
+
+<p align="left"><img src="https://github.com/user-attachments/assets/a4bd7949-c07a-48de-81d3-76c0908d070b"></p>
 
 <br>
 
-### 2️⃣) 기존의 VM과 ip가 똑같이 때문에 고정IP를 설정합니다.
+### 2️⃣) 기존의 VM과 IP가 똑같이 때문에 고정IP를 설정합니다.
 
 <p align="left"><img src="https://github.com/user-attachments/assets/54e63a80-f24d-45ca-9aaf-16fd62e8dd5f"></p>
 
@@ -48,9 +50,9 @@ network:
 <p align="left"><img src="https://github.com/user-attachments/assets/1a203af3-b38c-4d65-9f49-b5e3cf03e550"></p><br>
 
 
-### 4️⃣) 새로운 VM의 IP를 포트포워딩 해줍니다.
+### 4️⃣) 새로운 VM의 IP를 다른 호스트 포트번호로 포트포워딩 해줍니다.
 
-<p align="left"><img src="https://github.com/user-attachments/assets/35201d2d-a0fa-418c-b27d-f8cbf34755f3"></p><br>
+<p align="left"><img src="https://github.com/user-attachments/assets/c86d6d44-f06c-4712-85d5-e8b4e2d05ca4"></p><br>
 
 ### 5️⃣) PAM library를 사용하기위해 libpam-pwquality 설치해줍니다.
 
@@ -88,7 +90,7 @@ passpd username
 
 ## 트러블슈팅 🎯
 
-### dpkg 에러로 libpam-pwquality를 설치할 수 없는 상황
+### dpkg 에러로 libpam-pwquality를 설치할 수 없는 상황 
 
 <p align="left"><img src="https://github.com/user-attachments/assets/404f4745-4820-4300-916b-0065b4aa876c"></p><br>
 
